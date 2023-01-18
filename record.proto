@@ -1,0 +1,9 @@
+syntax ="proto2";
+message Record
+{
+	required string firmName=1;
+	required string legalAddress=2;
+	required int32 yearFoundation=3;
+	optional string typeActivity=4;
+	optional bool foreignEconomicActivity=5;
+}
